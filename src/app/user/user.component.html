@@ -1,0 +1,13 @@
+<h1>User Details</h1><div>
+user name - {{name}}<br/>
+user Age - {{age}}<br/>
+User address - 
+{{address.street}}, {{address.city}}, {{address.state}}
+<br/>
+Hobbies<br/>
+<ul>
+  <li *ngFor="let hobby of hobbies; let i = index">{{i+1}}. {{hobby}}</li>
+</ul>
+
+
+</div>
